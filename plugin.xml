@@ -3,10 +3,11 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-marketofork"
         version="0.7.8">
- <name>MarketoPlugin</name>
- <description>Marketo plugin</description>
- <license>Apache</license>
- <keywords>phonegap, Marketo</keywords>
+ <name>MarketoPluginFork</name>
+ <description>Forked Marketo plugin</description>
+ <license>Apache 2.0</license>
+ <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-inappbrowser.git</repo>
+ <keywords>phonegap,cordova,Marketo,marketing,push</keywords>
  <preference name="APPLICATION_SECRET_KEY"/>
 
 <js-module src="www/marketo.js" name="MarketoPlugin">
