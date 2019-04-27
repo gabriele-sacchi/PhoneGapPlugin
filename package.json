@@ -1,7 +1,7 @@
 {
-  "name": "MarketoPlugin",
-  "version": "0.7.8",
-  "description": "Marketo plugin",
+  "name": "cordova-plugin-marketofork",
+  "version": "1.0.0",
+  "description": "Fork of Marketo plugin",
   "cordova": {
     "id": "cordova-plugin-marketofork",
     "platforms": [
@@ -11,19 +11,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Marketo/PhoneGapPlugin.git"
+    "url": "https://github.com/gabriele-sacchi/PhoneGapPlugin"
   },
   "keywords": [
     "phonegap",
     "Marketo",
     "ecosystem:cordova",
     "cordova-android",
-    "cordova-ios"
+    "cordova-ios",
+    "cordova"
   ],
-  "author": "Rudy Gomez",
-  "license": "Apache",
-  "bugs": {
-    "url": "https://github.com/Marketo/PhoneGapPlugin/issues"
-  },
-  "homepage": "https://github.com/Marketo/PhoneGapPlugin#readme"
+  "author": "Apache Software Foundation",
+  "license": "Apache-2.0"
 }
