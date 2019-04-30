@@ -34,8 +34,8 @@ module.exports = function (context) {
     console.log('NOT preparing Firebase on iOS since it does not use it -- right???');
     // utilities.copyKey(PLATFORM.IOS);
   }
-  if (platforms.indexOf('android') !== -1 && utilities.directoryExists(ANDROID_DIR)) {
-    console.log('Preparing Firebase on Android');
-    utilities.copyKey(PLATFORM.ANDROID);
-  }
+  //  if (platforms.indexOf('android') !== -1 && utilities.directoryExists(ANDROID_DIR)) {
+  //    console.log('Preparing Firebase on Android');
+  //    utilities.copyKey(PLATFORM.ANDROID);
+  // }
 };
