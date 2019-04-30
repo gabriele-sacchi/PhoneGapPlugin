@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-marketofork"
-        version="0.7.8">
+        version="1.0.1">
  <name>MarketoPluginFork</name>
  <description>Forked Marketo plugin</description>
  <license>Apache 2.0</license>
@@ -15,7 +15,7 @@
 </js-module>
 
 <!-- android -->
-<platform name="android">
+<!-- <platform name="android">
   <hook type="after_plugin_install" src="scripts/android/after_plugin_install.js" />
   <hook type="before_plugin_uninstall" src="scripts/android/before_plugin_uninstall.js" />
   <info>
@@ -48,7 +48,6 @@
     </feature>
   </config-file>
 
-  <!-- your configuration elements, references, source files, etc... -->
    <framework src="src/android/Marketo.gradle" custom="true" type="gradleReference" />
    <framework src="com.google.android.gms:play-services-tagmanager:+" type="gradleReference"/>
    <framework src="com.google.firebase:firebase-core:+" type="gradleReference"/>
@@ -62,7 +61,7 @@
     Successfully added Marketo PhoneGap Plugin.
   </info>
 
-</platform>
+</platform> -->
 
 <!-- ios -->
 <platform name="ios">
