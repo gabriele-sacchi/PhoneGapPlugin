@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-marketofork",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Fork of Marketo plugin",
   "cordova": {
     "id": "cordova-plugin-marketofork",
