@@ -1,7 +1,7 @@
 repositories{
   jcenter()
   flatDir{
-      dirs 'aar'
+      dirs '../app/src/main/aar'
    }
 }
 
@@ -17,5 +17,4 @@ android {
 }
 cdvPluginPostBuildExtras.add({
     apply plugin: 'com.google.gms.google-services'
-    apply plugin: 'io.fabric'
 })
