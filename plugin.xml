@@ -2,7 +2,7 @@
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         id="cordova-plugin-marketofork"
-        version="2.0.0">
+        version="3.0.0">
  <name>MarketoPluginFork</name>
  <description>Forked Marketo plugin</description>
  <license>Apache 2.0</license>
@@ -15,7 +15,7 @@
 </js-module>
 
 <!-- android -->
-<!-- <platform name="android">
+<platform name="android">
   <hook type="after_plugin_install" src="scripts/android/after_plugin_install.js" />
   <hook type="before_plugin_uninstall" src="scripts/android/before_plugin_uninstall.js" />
   <info>
@@ -61,7 +61,7 @@
     Successfully added Marketo PhoneGap Plugin.
   </info>
 
-</platform> -->
+</platform>
 
 <!-- ios -->
 <platform name="ios">
